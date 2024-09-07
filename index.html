@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>server</title>
+    <style>
+        html{height: 1000px;}
+        body{margin: 0;}
+        header , .header{
+            background-color: #4051b5;
+            margin: 0;
+            height: 48px;
+            color: white;
+        }
+        .header-nav{
+            display: flex;
+            margin-right: 70px;
+            margin-left: 70px;
+        }
+        .logo{
+            line-height: 2.4rem;
+            height: 48px;
+            margin-right: 0.2rem;}
+        .title{
+            line-height: 2.4rem;
+            margin-left: 1rem;
+            margin-right: 0.4rem;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .main{
+            flex-grow: 1;
+        }
+        .main-inner{
+            margin-right: 70px;
+            margin-left: 70px;
+            display: flex;
+            height: 100%;
+            margin-top: 1.5rem;
+        }
+        .main-nav{
+            position: fixed
+        }
+        .main-article{
+            margin: auto;
+        }
+        .main-list{
+            list-style: none;
+            padding: 0;
+        }
+            
+    </style>
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <header>
+        <nav class="header-nav">
+
+            <div class="logo">
+                로고
+            </div>
+
+            <div>
+            <p class="title">사이트명</p>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- 사이트 매인 영역 -->
+    <div class="main"> 
+        <div class="main-inner">
+
+            <nav class="main-nav">
+                <ul class="main-list">
+                <li><a href="qqq">서버 접속 방법</a></li>
+                <li><a href="qqq">게임 플레이</a><li>
+                </ul>
+            </nav>
+
+            <article class="main-article">본문</article>
+
+        </div>
+    </div>
+    
+</body>
+</html>
