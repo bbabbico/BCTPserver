@@ -1,0 +1,43 @@
+body{margin: 0;}
+header{
+    background-color: #4051b5;
+    margin: 0;
+    height: 48px;
+    color: white;
+        }
+.header-nav{
+    display: flex;
+    margin-right: 70px;
+    margin-left: 70px;
+        }
+.logo{
+    line-height: 2.4rem;
+    height: 48px;
+    margin-right: 0.2rem;}
+.title{
+    line-height: 2.4rem;
+    margin-left: 1rem;
+    margin-right: 0.4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+        }
+.main{
+    flex-grow: 1;
+        }
+.main-inner{
+    margin-right: 70px;
+    margin-left: 70px;
+    display: flex;
+    height: 100%;
+    margin-top: 1.5rem;
+        }
+.main-nav{
+    position: fixed
+        }
+.main-article{
+    margin: auto;
+        }
+.main-list{
+    list-style: none;
+    padding: 0;
+        }
